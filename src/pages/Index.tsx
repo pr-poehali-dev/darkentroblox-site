@@ -457,27 +457,6 @@ export default function Index() {
 
               <div className="md:col-span-2 space-y-3">
                 <div className="p-5 bg-card border border-border rounded-sm">
-                  <h3 className="font-semibold text-sm mb-4 flex items-center gap-2">
-                    <Icon name="Package" size={14} className="gold-text" />
-                    История покупок
-                  </h3>
-                  <div className="space-y-3">
-                    {PURCHASES.map((p) => (
-                      <div key={p.id} className="flex items-center justify-between p-3 bg-background rounded-sm border border-border">
-                        <div>
-                          <div className="text-sm font-medium">{p.title}</div>
-                          <div className="text-xs text-muted-foreground mt-0.5">{p.date}</div>
-                        </div>
-                        <div className="text-right">
-                          <div className="text-sm font-semibold">{p.price.toLocaleString("ru")} ₽</div>
-                          <span className="tag-badge gold-text bg-primary/10">{p.status}</span>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="p-5 bg-card border border-border rounded-sm">
                   <h3 className="font-semibold text-sm mb-3 flex items-center gap-2">
                     <Icon name="Bell" size={14} className="gold-text" />
                     Уведомления
@@ -506,14 +485,6 @@ export default function Index() {
                 Данные профиля
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                <div>
-                  <label className="text-xs text-muted-foreground mb-1 block">Имя</label>
-                  <Input defaultValue="Алексей" className="bg-background border-border h-9 text-sm" />
-                </div>
-                <div>
-                  <label className="text-xs text-muted-foreground mb-1 block">Email</label>
-                  <Input defaultValue="alexm@mail.ru" className="bg-background border-border h-9 text-sm" />
-                </div>
                 <div>
                   <label className="text-xs text-muted-foreground mb-1 block">Telegram</label>
                   <Input placeholder="@username" className="bg-background border-border h-9 text-sm" />
