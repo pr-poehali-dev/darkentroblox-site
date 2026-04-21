@@ -181,6 +181,12 @@ export default function Index() {
                     <span className="gold-text">аккаунты</span><br />
                     премиум-класса
                   </h1>
+                  <div className="inline-flex items-center gap-2 text-sm font-medium mb-6 bg-card border border-border rounded px-4 py-2.5">
+                    <Icon name="Send" size={15} className="gold-text shrink-0" />
+                    <span className="text-muted-foreground">Покупка аккаунта — пишите сюда:</span>
+                    <a href="https://t.me/akkrbst_bot" target="_blank" rel="noopener noreferrer" className="gold-text font-semibold hover:underline">@akkrbst_bot</a>
+                    <span className="text-xs text-muted-foreground">— отвечает реальный человек!</span>
+                  </div>
                   <p className="text-muted-foreground text-lg mb-8 leading-relaxed max-w-xl">
                     Проверенные аккаунты социальных сетей, стриминга и игровых платформ. Гарантия качества, мгновенная доставка.
                   </p>
