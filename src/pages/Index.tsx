@@ -15,6 +15,7 @@ const ACCOUNTS = [
   { id: 4, title: "Netflix Premium", category: "Стриминг", price: 1200, oldPrice: null, followers: "4K Ultra HD", verified: true, hot: false, rating: 4.7, reviews: 203, tag: null },
   { id: 5, title: "TikTok • Монетизация", category: "Социальные сети", price: 8900, oldPrice: 11000, followers: "50K подписчиков", verified: true, hot: true, rating: 4.9, reviews: 31, tag: "ЭКСКЛЮЗИВ" },
   { id: 6, title: "Gmail • Старый аккаунт", category: "Email", price: 650, oldPrice: null, followers: "Создан в 2015", verified: true, hot: false, rating: 4.6, reviews: 178, tag: null },
+  { id: 7, title: "Roblox • @MaksMark_1", category: "Игры", price: 3500, oldPrice: null, followers: "Донатный уровень • 2023", verified: true, hot: false, rating: 4.8, reviews: 12, tag: "НОВИНКА" },
 ];
 
 const REVIEWS = [
