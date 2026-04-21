@@ -446,8 +446,7 @@ export default function Index() {
                 <div className="w-16 h-16 rounded-full gold-bg/20 border border-primary/30 flex items-center justify-center mx-auto mb-4">
                   <Icon name="User" size={28} className="gold-text" />
                 </div>
-                <div className="font-semibold mb-0.5">@user</div>
-                <div className="text-xs text-muted-foreground mb-4">alexm@mail.ru</div>
+                <div className="font-semibold mb-4">@user</div>
                 <div className="text-xs text-muted-foreground border-t border-border pt-4 mt-2">
                   <div className="flex justify-between mb-1"><span>Покупок</span><span className="text-foreground font-medium">2</span></div>
                   <div className="flex justify-between mb-1"><span>Потрачено</span><span className="text-foreground font-medium">3 390 ₽</span></div>
